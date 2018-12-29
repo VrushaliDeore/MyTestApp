@@ -1,0 +1,86 @@
+package com.example.aniket.bs_search;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import java.util.Arrays;
+
+public class MainActivity extends AppCompatActivity implements ReactApplication {
+
+    private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+        @Override
+        public boolean getUseDeveloperSupport() {
+            return BuildConfig.DEBUG;
+        }
+
+        @Override
+        protected List<ReactPackage> getPackages() {or pc
+
+            return Arrays.<ReactPackage>asList(
+                    new MainReactPackage(),
+                    new BlurViewPackage(),
+                    new VectorIconsPackage(),
+                    new SajjadBlurOverlayPackage()
+            );
+        }
+
+        @Override
+        protected String getJSMainModuleName() {
+            return "index";
+        }
+    };
+
+    @Overridepackage com.example.aniket.bs_search;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import java.util.Arrays;
+
+public class MainActivity extends AppCompatActivity implements ReactApplication {
+
+    private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+        @Override
+        public boolean getUseDeveloperSupport() {
+            return BuildConfig.DEBUG;
+        }
+
+        @Override
+        protected List<ReactPackage> getPackages() {or pc
+
+            return Arrays.<ReactPackage>asList(
+                    new MainReactPackage(),
+                    new BlurViewPackage(),
+                    new VectorIconsPackage(),
+                    new SajjadBlurOverlayPackage()
+            );
+        }
+
+        @Override
+        protected String getJSMainModuleName() {
+            return "index";
+        }
+    };
+
+    @Override
+    public ReactNativeHost getReactNativeHost() {
+        return mReactNativeHost;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        SoLoader.init(this, /* native exopackage */ false);
+    }
+}
+
+    public ReactNativeHost getReactNativeHost() {
+        return mReactNativeHost;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        SoLoader.init(this, /* native exopackage */ false);
+    }
+}
